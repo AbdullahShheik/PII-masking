@@ -16,7 +16,7 @@ from collections import Counter
 
 #1 LOAD DATASET
 
-DATA_PATH = "..\Internship_task_data\data.json"
+DATA_PATH = "..\Internship_task_data\\test_data.json"
 
 with open(DATA_PATH, "r", encoding="utf-8") as f:
     data = json.load(f)
